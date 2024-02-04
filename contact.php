@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css"/>
+    <title>WEb site</title>
+</head>
+
+
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="#">LiBrArY &nbsp;&nbsp; cAlMs</a></div>
+            <ul class="links">
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="book_details.php">Book Details</a></li>
+                <li><a href="service.php">Our Service</a></li>
+                <li><a href="careere.php">Careers</a></li>
+                <li><a href="contact.php">Contact</a></li>
+            </ul>
+            <a href="login.php" class="action_btn">Login</a>
+            <div class="toggle_btn"></div>
+            <i class="fa-solid fa-bars"></i>
+        </div>
+     </header>
+
+
+<section class="contact">
+    <div class="cont1">
+        <h2>Touch With Us</h2>
+        <p>Bloomberg Businessweek. Bloomberg Businessweek helps readers stay ahead with unique insights and 
+            in-depth analysis on the people, companies, events, and trends shaping today's complex, global economy</p>
+    </div>
+<div class="contain11">
+    <div class="contact-info">
+        <div class="box11">
+            <div class="icon11"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                <div class="text11">
+                    <h3>Address</h3>
+                    <p>No.177,<br>Main Road,<br>Peradeniya,<br>Kandy.</p>
+               
+                </div>
+          
+            </div>
+            
+
+            <div class="box11">
+                <div class="icon11"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                    <div class="text11">
+                        <h3>Email</h3>
+                        <p>librarycalm@gmail.com<br>librarycalms12@outlook.com</p>
+                    
+                    </div>
+            </div>
+
+                <div class="box11">
+                    <div class="icon11"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                        <div class="text11">
+                            <h3>Phone</h3>
+                            <p>081-7598200<br>077-8576500</p>
+                        </div>
+                    </div>
+        <form  method="post"  action="db_form_message.php">
+        <div class="contact-form">
+            
+                <h2>Send Message</h2>
+                <div class="inputbox11">
+                    <input type="text" name="name" required="required">
+                    <span>Full Name</span>
+                </div>
+
+                <div class="inputbox11">
+                    <input type="text" name="email" required="required">
+                    <span>Email</span>
+                </div>
+
+                <div class="inputbox11">
+                    <input type="text" name="message" required="required">
+                    <span>Type Your Message...</span>
+                </div>
+                <div class="contact-btn">
+                    <input type="submit" name="" value="Send">
+                </div>
+                </div>
+                
+            </form>
+      </div>
+      <div class="contact_contect">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31687.367499734923!2d79.9030273266589!3d6.900058932463817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25755e928e7ff%3A0x85482fe919ac9ca1!2sBattaramulla!5e0!3m2!1sen!2slk!4v1665195497879!5m2!1sen!2slk" width="720px" height="900px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>	</div>
+            
+        </div>
+            </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+	
+	
+
+
+
+	
+
+
+
+
+
+
+</body>
+</html>
